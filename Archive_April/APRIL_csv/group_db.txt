@@ -1,0 +1,8 @@
+['allowOnlinePayment', 'isInStock', 'categoryID', 'ID',
+       'slug', 'bonuses', 'name', 'averageRating', 'limitWithoutCard', 'isAvailable', 'allowDelivery', 
+       'rating', 'isRecipe', 'group', 'parsing_day_x', 'Нозология', 'Действующее вещество', 
+       'Группа товара', 'Бренд', 'Производитель', 'Страна', 'Форма выпуска', 'Рецепт', 
+       'Условия хранения', 'Действующее вещество, сборное название', 'Состав, вес (кратко)', 
+       'Фармакотерапевтическая группа', 'price_withCard', 'price_withPeriod', 'price_withoutCard']
+
+['name_item_price', 'Состав, вес (кратко)', 'Производитель', 'Страна', 'Бренд', 'name_item_prop', 'name', 'ID']

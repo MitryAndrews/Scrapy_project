@@ -1,0 +1,47 @@
+показатели json
+['subtypeIDs', 'limitWithoutCard', 'm', 'imagesSizeXS', 'typeIDs', 'allowDelivery', 'rating', 'limitWithCard', 'slug', 'averageRating', 'isWaitingArrive', 'g', 'images', 'mightNeedID', 'isInStock', 'e', 'allowOnlinePayment', 'ID', 'imagesSizeS', 'isRecipe', 'priceZakaz', 'isAvailable', 'price', 'bonuses', 'd', 'discountTemplate', 'sticker', 'name', 'c', 's', 'o', 'categoryID', 'reviewsNumber', 'properties', 'a']
+очищенный список
+['subtypeIDs', 'typeIDs', 'allowDelivery', 'slug', 'isInStock', 'allowOnlinePayment', 'ID', 'isRecipe', 'priceZakaz', 'isAvailable', 'price', 'name', 'categoryID', 'reviewsNumber', 'properties']
+
+
+'subtypeIDs' - группы товара?
+'limitWithoutCard' - лимит остатка? везде одинаковый равен 36
+'allowDelivery' - доставка по адресу True or False (доступна или нет)
+'slug' - название латинскими буквами 
+'isInStock' - скорее всего наличие на остатке?
+'allowOnlinePayment' - возможно позволение оплатить онлайн?
+'isRecipe' - по рецепту или нет
+
+'isAvailable' = есть в наличии или нет (скорее всего этот показатель)
+'discountTemplate' не извествно
+'sticker' не известно
+'categoryID' видимо категория товара
+
+
+sredstva_dlya_lecheniya_prostudy_i_grippa
+
+{'serdechnososudistaya': 'serdechnososudistaya', 
+'obezbolivayushchie': 'obezbolivayushchie', 
+'sredstva': 'sredstva_dlya_lecheniya_prostudy_i_grippa', 
+'zheludochnokishechnye': 'zheludochnokishechnye'}
+
+
+selection Columns
+
+['count_index', 'allowOnlinePayment', 'isInStock', 'name_latin', 'bonuses', 'averageRating', 'limitWithoutCard',
+       'isAvailable', 'allowDelivery', 'isRecipe', 'group',
+       'parsing_day_x', 'Nosology', 'Active_ingredient', 'Product_Group',
+       'Brand', 'Manufacturer', 'Country', 'Form_release', 'Prescription',
+       'Conditions_of_storage', 'Active_ingredient_compound_name_composition',
+       'weight_briefly', 'Pharmacotherapeutic_group', 'price_withCard',
+       'price_withPeriod', 'price_withoutCard']
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,34 @@
+показатели json
+['subtypeIDs', 'limitWithoutCard', 'm', 'imagesSizeXS', 'typeIDs', 'allowDelivery', 'rating', 'limitWithCard', 'slug', 'averageRating', 'isWaitingArrive', 'g', 'images', 'mightNeedID', 'isInStock', 'e', 'allowOnlinePayment', 'ID', 'imagesSizeS', 'isRecipe', 'priceZakaz', 'isAvailable', 'price', 'bonuses', 'd', 'discountTemplate', 'sticker', 'name', 'c', 's', 'o', 'categoryID', 'reviewsNumber', 'properties', 'a']
+очищенный список
+['subtypeIDs', 'typeIDs', 'allowDelivery', 'slug', 'isInStock', 'allowOnlinePayment', 'ID', 'isRecipe', 'priceZakaz', 'isAvailable', 'price', 'name', 'categoryID', 'reviewsNumber', 'properties']
+
+
+'subtypeIDs' - группы товара?
+'limitWithoutCard' - лимит остатка? везде одинаковый равен 36
+'allowDelivery' - доставка по адресу True or False (доступна или нет)
+'slug' - название латинскими буквами 
+'isInStock' - скорее всего наличие на остатке?
+'allowOnlinePayment' - возможно позволение оплатить онлайн?
+'isRecipe' - по рецепту или нет
+
+'isAvailable' = есть в наличии или нет (скорее всего этот показатель)
+'discountTemplate' не извествно
+'sticker' не известно
+'categoryID' видимо категория товара
+
+
+
+
+{'Нозология': 'Nosology', 'Действующее вещество': 'Active_ingredient', 
+'Группа товара': 'Product_Group', 'Бренд': 'Brand', 'Производитель': 'Manufacturer', 
+'Страна': 'Country', 'Форма выпуска': 'Form_release', 'Рецепт': 'Prescription', 
+'Условия хранения': 'Conditions_of_storage', 
+'Действующее вещество, сборное название': 'Active_ingredient,_compound_name_composition', 
+'Состав, вес (кратко)': 'weight_(briefly)', 'Фармакотерапевтическая группа': 'Pharmacotherapeutic_group'} 
+
+
+
+
+
+

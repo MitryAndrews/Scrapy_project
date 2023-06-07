@@ -1,0 +1,30 @@
+
+https://vitaexpress.ru/catalog/lekarstva-i-bady/lekarstva-ot-prostudy/?&page_count=2
+css-selector: ".btn-pager"
+.btn-pager
+/html/body/div[2]/div[5]/div[2]/div/div[2]/div[2]/div[3]/div[2]/button
+
+https://vitaexpress.ru/catalog/lekarstva-i-bady/obezbolivayushchie/
+https://vitaexpress.ru/catalog/lekarstva-i-bady/obezbolivayushchie/?&page_count=1
+
+
+https://vitaexpress.ru/catalog/lekarstva-i-bady/zheludochno-kishechnye-preparaty/?&page_count=2
+
+https://vitaexpress.ru/catalog/lekarstva-i-bady/zdorovoe-serdtse-i-sosudy/?&page_count=2
+
+
+
+
+
+
+
+
+
+
+
+div.col-xs-12:nth-child(2) > div:nth-child(1)
+
+/html/body/div[2]/div[5]/div[2]/div/div[2]/div[2]/div[1]/div[2]/div
+
+
+

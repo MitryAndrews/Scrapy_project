@@ -1,0 +1,155 @@
+1670911919435	geckodriver	INFO	Listening on 127.0.0.1:59859
+1670911922496	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "59860" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\user\\AppData\\Local\\Temp\\rust_mozprofileoXLzOl"
+1670911922706	Marionette	INFO	Marionette enabled
+1670911922709	Marionette	INFO	Listening on port 59881
+Read port: 59881
+WebDriver BiDi listening on ws://127.0.0.1:59860
+1670911922778	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\user\\AppData\\Local\\Temp\\rust_mozprofileoXLzOl\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:59860/devtools/browser/0afe6080-adb1-455c-845d-4072d438a25c
+JavaScript error: https://www.avito.ru/, line 2: SyntaxError: unexpected token: keyword 'if'
+JavaScript error: https://www.avito.ru/, line 2: SyntaxError: unexpected token: keyword 'if'
+JavaScript warning: https://www.avito.ru/dstatic/build/client/f.1e710977400fd6bab6de.js, line 6: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1670911992629	Marionette	INFO	Stopped listening on port 59881
+1670917792841	geckodriver	INFO	Listening on 127.0.0.1:63991
+1670917795910	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "63992" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\user\\AppData\\Local\\Temp\\rust_mozprofile8k09PV"
+1670917796114	Marionette	INFO	Marionette enabled
+1670917796117	Marionette	INFO	Listening on port 64004
+Read port: 64004
+WebDriver BiDi listening on ws://127.0.0.1:63992
+1670917796182	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\user\\AppData\\Local\\Temp\\rust_mozprofile8k09PV\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:63992/devtools/browser/8312f0f0-1ace-4202-a6ca-f6460c7515fd
+1670917809948	Marionette	INFO	Stopped listening on port 64004
+1670917818281	geckodriver	INFO	Listening on 127.0.0.1:64063
+1670917821345	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "64064" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\user\\AppData\\Local\\Temp\\rust_mozprofile37MJ9r"
+1670917821543	Marionette	INFO	Marionette enabled
+1670917821546	Marionette	INFO	Listening on port 64076
+Read port: 64076
+WebDriver BiDi listening on ws://127.0.0.1:64064
+1670917821610	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\user\\AppData\\Local\\Temp\\rust_mozprofile37MJ9r\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:64064/devtools/browser/38dedc2e-ae3e-4291-a75b-43b1880678d0
+1670917833645	Marionette	INFO	Stopped listening on port 64076
+1670917909087	geckodriver	INFO	Listening on 127.0.0.1:64174
+1670917912152	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "64175" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\user\\AppData\\Local\\Temp\\rust_mozprofileowsib6"
+1670917912351	Marionette	INFO	Marionette enabled
+1670917912354	Marionette	INFO	Listening on port 64187
+Read port: 64187
+WebDriver BiDi listening on ws://127.0.0.1:64175
+1670917912418	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\user\\AppData\\Local\\Temp\\rust_mozprofileowsib6\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:64175/devtools/browser/6c414abc-9b08-4b8c-8493-0b3265b45cd6
+1670917924682	Marionette	INFO	Stopped listening on port 64187
+1670923183150	geckodriver	INFO	Listening on 127.0.0.1:59948
+1670923186193	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "59949" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\user\\AppData\\Local\\Temp\\rust_mozprofileGvQog2"
+1670923186393	Marionette	INFO	Marionette enabled
+1670923186396	Marionette	INFO	Listening on port 59961
+Read port: 59961
+WebDriver BiDi listening on ws://127.0.0.1:59949
+1670923186459	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\user\\AppData\\Local\\Temp\\rust_mozprofileGvQog2\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:59949/devtools/browser/5bb5e093-34e0-494f-9502-c9a25b3ede1f
+JavaScript error: https://2ip.ru/, line 46: ReferenceError: googletag is not defined
+JavaScript error: https://2ip.ru/, line 52: ReferenceError: googletag is not defined
+JavaScript error: https://2ip.ru/, line 58: ReferenceError: googletag is not defined
+1670923198609	Marionette	INFO	Stopped listening on port 59961
+1670923241587	geckodriver	INFO	Listening on 127.0.0.1:60222
+1670923269868	geckodriver	INFO	Listening on 127.0.0.1:60237
+1670923311045	geckodriver	INFO	Listening on 127.0.0.1:60275
+1670923423129	geckodriver	INFO	Listening on 127.0.0.1:60330
+1670923435967	geckodriver	INFO	Listening on 127.0.0.1:60415
+1670923439017	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "60416" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\user\\AppData\\Local\\Temp\\rust_mozprofile2f7eXm"
+1670923439216	Marionette	INFO	Marionette enabled
+1670923439220	Marionette	INFO	Listening on port 60430
+Read port: 60430
+WebDriver BiDi listening on ws://127.0.0.1:60416
+1670923439285	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\user\\AppData\\Local\\Temp\\rust_mozprofile2f7eXm\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:60416/devtools/browser/2ddae0c5-82c7-4c42-ba87-5762b23e1845
+JavaScript error: https://2ip.ru/, line 46: ReferenceError: googletag is not defined
+JavaScript error: https://2ip.ru/, line 52: ReferenceError: googletag is not defined
+JavaScript error: https://2ip.ru/, line 58: ReferenceError: googletag is not defined
+1670923446788	Marionette	INFO	Stopped listening on port 60430
+1670923493629	geckodriver	INFO	Listening on 127.0.0.1:60748
+1670923594322	geckodriver	INFO	Listening on 127.0.0.1:60851
+1670923700050	geckodriver	INFO	Listening on 127.0.0.1:60926
+1670923738650	geckodriver	INFO	Listening on 127.0.0.1:60965
+1670923777153	geckodriver	INFO	Listening on 127.0.0.1:60996
+1670923807322	geckodriver	INFO	Listening on 127.0.0.1:61018
+1670923904490	geckodriver	INFO	Listening on 127.0.0.1:61077
+1670923964603	geckodriver	INFO	Listening on 127.0.0.1:61114
+1670924015162	geckodriver	INFO	Listening on 127.0.0.1:61146
+1670924180527	geckodriver	INFO	Listening on 127.0.0.1:60957
+1670924188521	geckodriver	INFO	Listening on 127.0.0.1:61060
+1670924378189	geckodriver	INFO	Listening on 127.0.0.1:61200
+1670924478238	geckodriver	INFO	Listening on 127.0.0.1:61238
+1670924522264	geckodriver	INFO	Listening on 127.0.0.1:61270
+1670924610612	geckodriver	INFO	Listening on 127.0.0.1:61419
+1670924613693	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "61420" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\user\\AppData\\Local\\Temp\\rust_mozprofilehsavHm"
+1670924613894	Marionette	INFO	Marionette enabled
+1670924613897	Marionette	INFO	Listening on port 61435
+Read port: 61435
+WebDriver BiDi listening on ws://127.0.0.1:61420
+1670924613963	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\user\\AppData\\Local\\Temp\\rust_mozprofilehsavHm\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:61420/devtools/browser/6ba12250-2655-4edc-8a46-b9c3a14aae26
+1670924818187	Marionette	INFO	Stopped listening on port 61435
+1670935628330	geckodriver	INFO	Listening on 127.0.0.1:61557
+1670935631398	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "61558" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\user\\AppData\\Local\\Temp\\rust_mozprofilePAQFJV"
+1670935631601	Marionette	INFO	Marionette enabled
+1670935631604	Marionette	INFO	Listening on port 61570
+Read port: 61570
+WebDriver BiDi listening on ws://127.0.0.1:61558
+1670935631671	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\user\\AppData\\Local\\Temp\\rust_mozprofilePAQFJV\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:61558/devtools/browser/d6844fdb-8491-42f7-a4bc-597a45410a9d
+1670935656568	Marionette	INFO	Stopped listening on port 61570
+1670935707930	geckodriver	INFO	Listening on 127.0.0.1:61924
+1670935711001	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "61925" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\user\\AppData\\Local\\Temp\\rust_mozprofileNsifUu"
+1670935711204	Marionette	INFO	Marionette enabled
+1670935711207	Marionette	INFO	Listening on port 61943
+Read port: 61943
+WebDriver BiDi listening on ws://127.0.0.1:61925
+1670935711273	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\user\\AppData\\Local\\Temp\\rust_mozprofileNsifUu\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:61925/devtools/browser/003657ca-6eb5-43e7-977d-f67b12a462d8
+JavaScript warning: https://www.avito.ru/dstatic/build/client/f.1e710977400fd6bab6de.js, line 6: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.avito.ru/2a376e60.js, line 4: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.avito.ru/2a376e60.js, line 4: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.avito.ru/2a376e60.js, line 4: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.avito.ru."
+1670935771303	Marionette	INFO	Stopped listening on port 61943
+1670935823652	geckodriver	INFO	Listening on 127.0.0.1:62329
+1670935826721	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "62330" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\user\\AppData\\Local\\Temp\\rust_mozprofile9Sz8JD"
+1670935826921	Marionette	INFO	Marionette enabled
+1670935826925	Marionette	INFO	Listening on port 62340
+Read port: 62340
+WebDriver BiDi listening on ws://127.0.0.1:62330
+1670935826990	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\user\\AppData\\Local\\Temp\\rust_mozprofile9Sz8JD\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:62330/devtools/browser/e754ac33-70b4-495d-a988-2ee16566b705
+JavaScript warning: https://www.avito.ru/dstatic/build/client/f.1e710977400fd6bab6de.js, line 6: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.avito.ru/2a376e60.js, line 4: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.avito.ru/2a376e60.js, line 4: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.avito.ru/2a376e60.js, line 4: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.avito.ru."
+1670935862291	Marionette	INFO	Stopped listening on port 62340
+[Parent 15688, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+1671010350719	geckodriver	INFO	Listening on 127.0.0.1:61344
+1671010484368	geckodriver	INFO	Listening on 127.0.0.1:61437
+1671010635786	geckodriver	INFO	Listening on 127.0.0.1:61516
+1671010755137	geckodriver	INFO	Listening on 127.0.0.1:61592
+1671010835775	geckodriver	INFO	Listening on 127.0.0.1:61721
+1671011240325	geckodriver	INFO	Listening on 127.0.0.1:62312
+1671011395044	geckodriver	INFO	Listening on 127.0.0.1:62607
+1671011476570	geckodriver	INFO	Listening on 127.0.0.1:62673
+1671011485701	geckodriver	INFO	Listening on 127.0.0.1:62684
+1671011497002	geckodriver	INFO	Listening on 127.0.0.1:62762
+1671011591438	geckodriver	INFO	Listening on 127.0.0.1:62894
+1671011682938	geckodriver	INFO	Listening on 127.0.0.1:62958
+1671011894652	geckodriver	INFO	Listening on 127.0.0.1:63348
+1671012179665	geckodriver	INFO	Listening on 127.0.0.1:63825
+1671012485391	geckodriver	INFO	Listening on 127.0.0.1:63987
+1671012491142	geckodriver	INFO	Listening on 127.0.0.1:63997
+1671013564641	geckodriver	INFO	Listening on 127.0.0.1:65451
