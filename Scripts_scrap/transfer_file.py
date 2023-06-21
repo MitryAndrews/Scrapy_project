@@ -4,9 +4,12 @@ import shutil
 import zipfile
 import openpyxl
 from openpyxl import load_workbook
-move_dir = fr'C:\Users\update_xlsx_files' # folder where we move files
-dirname_from = fr'C:\Users\update'
-dirname = fr'C:\Users\update_xlsx_files' #
+#move_dir = fr'C:\Users\update_xlsx_files' # folder where we move files
+move_dir = fr'C:\Users\user\Desktop\Рабочие файлы\update_xlsx_files'
+#dirname_from = fr'C:\Users\update'
+dirname_from = fr'C:\Users\user\Desktop\Рабочие файлы\update'
+#dirname = fr'C:\Users\update_xlsx_files' #
+dirname = fr'C:\Users\user\Desktop\Рабочие файлы\update_xlsx_files' #
 # dirname = fr'C:\Users\update'
 files = os.listdir(dirname_from)
 print((files))
