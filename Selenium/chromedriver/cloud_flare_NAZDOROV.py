@@ -23,7 +23,7 @@ url = 'https://xn--80aafkze2bij.online'
 # url = 'https://web-api.apteka-april.ru/catalog/ID,slug,price,priceZakaz,sticker,name,images,typeIDs,subtypeIDs,categoryID,isInStock,allowDelivery,allowOnlinePayment,averageRating,reviewsNumber,bonuses,deliveryRuleID,limitWithCard,limitWithoutCard,isAvailable,isWaitingArrive,isRecipe,discountTemplate,deliveryAmount,mightNeedID,imagesSizeS,imagesSizeXS,properties,rating@products?typeIDs=396070&typeSlugs=%22lekarstvennye_preparaty_i_bady%22&subtypeIDs=3872&subtypeSlugs=%22sredstva_dlya_lecheniya_prostudy_i_grippa%22&cityID=57974[100:25]'
 str_add = '?page='
 dict_url = {
-    'https://xn--80aafkze2bij.online/category/lekarstvennye-preparaty/preparaty-pri-prostudnykh-zabolevaniyakh-i-grippe/': 5, 'https://xn--80aafkze2bij.online/category/lekarstvennye-preparaty/obezbolivayushchie-preparaty/': 12,
+    'https://xn--80aafkze2bij.online/category/lekarstvennye-preparaty/preparaty-pri-prostudnykh-zabolevaniyakh-i-grippe/': 4, 'https://xn--80aafkze2bij.online/category/lekarstvennye-preparaty/obezbolivayushchie-preparaty/': 12,
     'https://xn--80aafkze2bij.online/category/lekarstvennye-preparaty/pishchevaritelnaya-sistema/': 17, 'https://xn--80aafkze2bij.online/category/lekarstvennye-preparaty/serdechno-sosudistye-preparaty/': 35
     }
 # dict_url = {
