@@ -10,6 +10,7 @@ import json
 now = date.today()
 # now = '2022-12-28'
 now = '2023-05-07'
+now = '2023-06-27'
 dirname_from = fr'C:\Users\user\Scrapy_project\Archive_April'
 files = os.listdir(dirname_from)
 # files = os.walk(dirname_from)
