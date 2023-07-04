@@ -14,6 +14,7 @@ options = uc.ChromeOptions()
 options.add_argument(f'user-agent={user_agent}')
 now = date.today()
 now = '2023-05-30'
+now = '2023-07-03'
 url = 'https://habr.com/ru/all/'
 url = 'https://www.avito.ru/'
 # url = 'https://vitaexpress.ru/'

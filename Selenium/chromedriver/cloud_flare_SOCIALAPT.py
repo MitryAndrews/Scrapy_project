@@ -21,7 +21,7 @@ url = 'https://astrahan.social-apteka.ru'
 str_add = '?PAGEN_2='
 dict_url = {
     'https://astrahan.social-apteka.ru/catalog/gripp-i-prostuda/': 7, 'https://astrahan.social-apteka.ru/catalog/bol-temperatura/': 8,
-    'https://astrahan.social-apteka.ru/catalog/zheludok-kishechnik-pechen/': 12, 'https://astrahan.social-apteka.ru/catalog/serdechno-sosudistaya-sistema/': 19
+    'https://astrahan.social-apteka.ru/catalog/zheludok-kishechnik-pechen/': 12, 'https://astrahan.social-apteka.ru/catalog/serdechno-sosudistaya-sistema/': 18
     }
 
 list_url = []

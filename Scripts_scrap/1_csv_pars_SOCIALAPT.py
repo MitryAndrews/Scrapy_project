@@ -14,7 +14,7 @@ count11 = 1
 
 parsing_day = datetime.datetime.today().strftime('%Y-%m-%d')
 parsing_day = '2023-06-01'
-
+parsing_day = '2023-07-04'
 # print(f'{parsing_day} - begining ')
 # print(fr'C:\Python mini\venv\data_imobiliare\{count11}_{count11} страница_IMOBILIARE_RO_{parsing_day}')
 count_flat_0 = 1
@@ -25,7 +25,7 @@ dict_href = []
 social_name = 'https://astrahan.social-apteka.ru'
 dict_url = {
     'https://astrahan.social-apteka.ru/catalog/gripp-i-prostuda/': 7, 'https://astrahan.social-apteka.ru/catalog/bol-temperatura/': 8,
-    'https://astrahan.social-apteka.ru/catalog/zheludok-kishechnik-pechen/': 12, 'https://astrahan.social-apteka.ru/catalog/serdechno-sosudistaya-sistema/': 19
+    'https://astrahan.social-apteka.ru/catalog/zheludok-kishechnik-pechen/': 12, 'https://astrahan.social-apteka.ru/catalog/serdechno-sosudistaya-sistema/': 18
     }
 dict_chief = []
 keys = ['group', 'name_item', 'href_name', 'price', 'producer']
