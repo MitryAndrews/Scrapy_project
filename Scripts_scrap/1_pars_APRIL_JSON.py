@@ -10,16 +10,18 @@ from random import choice, uniform
 from selenium import webdriver
 import csv
 import json
-# parsing_day = '2022-12-28'
+parsing_day = '2022-12-28'
 parsing_day = '2023-05-07'
+parsing_day = '2023-06-27'
 dirname_from = fr'C:\Users\user\Scrapy_project\Archive_April\APRIL_json'
 files = os.listdir(dirname_from)
 # files = os.walk(dirname_from)
-pattern = "*.txt"
+pattern = f"*{parsing_day}_RE.txt"
 # print(files)
 now = date.today()
 now = '2022-12-28'
-# now = '2023-05-07'
+now = '2023-05-07'
+now = '2023-06-27'
 url1 = f'https://apteka-april.ru/'
 path1 = fr'C:\Users\user\Scrapy_project\Archive_April'
 path2 = fr'C:\Users\user\Scrapy_project\Archive_April\APRIL_json'
@@ -27,20 +29,20 @@ start =100
 step = 100 
 num_page = 100
 count = 1*step
-list_typeID = [5, 6, 8, 10, 13, 15, 16, 17, 18, 19, 20, 21]
+list_typeID = [5, 6, 8, 10, 13, 14, 15, 16, 17, 18, 19, 20, 21, 222]
 price_dict = {'price_withCard': 0, 'price_withPeriod':0, 'price_withoutCard': 0} 
 keys_price = ['count_index', 'name_item_price', 'parsing_day', 'price_withCard', 'price_withPeriod', 'price_withoutCard']
 typeID = {
-    5: 'Нозология', 6: 'Действующее вещество', 8: 'Группа товара', 10: 'Бренд', 13: 'Производитель',
+    5: 'Нозология', 6: 'Действующее вещество', 8: 'Группа товара', 10: 'Бренд', 13: 'Производитель', 14: 'Other',
     15: 'Страна', 16: 'Форма выпуска', 17: 'Рецепт', 18: 'Условия хранения', 19: 'Действующее вещество, сборное название',
-    20: 'Состав, вес (кратко)', 21: 'Фармакотерапевтическая группа'
+    20: 'Состав, вес (кратко)', 21: 'Фармакотерапевтическая группа', 222: 'Количество в упаковке'
               }
 properties_dict = {'Нозология': [], 'Действующее вещество': [], 'Группа товара': [], 'Бренд': [], 'Производитель': [],
                           'Страна': [], 'Форма выпуска': [], 'Рецепт': [], 'Условия хранения': [], 'Действующее вещество, сборное название': [],
-                          'Состав, вес (кратко)': [], 'Фармакотерапевтическая группа': []}
+                          'Состав, вес (кратко)': [], 'Фармакотерапевтическая группа': [], 'Количество в упаковке': [], 'Other': []}
 keys_prop = ['count_index', 'name_item_prop', 'parsing_day','Нозология', 'Действующее вещество', 'Группа товара', 'Бренд', 'Производитель',
                           'Страна', 'Форма выпуска', 'Рецепт', 'Условия хранения', 'Действующее вещество, сборное название',
-                          'Состав, вес (кратко)', 'Фармакотерапевтическая группа']
+                          'Состав, вес (кратко)', 'Фармакотерапевтическая группа', 'Количество в упаковке', 'Other']
 list_item_group = []
 list_file = []
 
@@ -50,27 +52,29 @@ for i in files:
         name_file = path1+'\\'+i
         name_file2 = path2+'\\'+i
         name_file3 = fr'{path2}\{i}'
-        # print(name_file3)
+        print(name_file3)
         list_file.append(name_file3)
-print(len(list_file))#, '=====', list_file)
+# print(len(list_file))#, '=====', list_file)
 count_name = 0
 count_file = 0
 list_typeID = []
 list_keys = []
 list_value = []
 dict_chief = []
-dict_type_ID_1 = {5: 0, 6: 0, 8: 0, 10: 0, 13: 0, 15: 0, 16: 0, 17:0, 18: 0, 19: 0, 20: 0, 21: 0}
+dict_type_ID_1 = {5: 0, 6: 0, 8: 0, 10: 0, 13: 0, 14: 0, 15: 0, 16: 0, 17:0, 18: 0, 19: 0, 20: 0, 21: 0, 222: 0}
 dict_prop_chief = []
 dict_price_chief = []
 count_index = 1
+price = {'price_withCard': 0, 'price_withPeriod':0, 'price_withoutCard': 0}
 for f in list_file:#[:2]:
-    print(f)
+    # print(f)
     count_file += 1
     with open(f, 'r', encoding='utf-8') as json_file:
         data = json.load(json_file)
         # count_index = 1
         for i in data:
             # print('========================================')
+            print(i)
             # print('file >>>', f, ' || ', 'file_split >>>', f.split('_')[4])
             for ii in i:
                 list_keys.append(ii)
@@ -81,7 +85,8 @@ for f in list_file:#[:2]:
                 name_item = 'None'
                 # print('None item')
             dict1 = i
-            dict1['group'] = f.split('_')[4]
+            # print( 'this is ', f.split('_')[4])#['group'])
+            dict1['group'] = f.split('_')[4] 
             count_index_total = f'{count_index}_{parsing_day}'
             dict1['count_index'] = count_index_total
             dict_chief.append(dict1)
@@ -99,6 +104,7 @@ for f in list_file:#[:2]:
             try:
                 price = i['price']
                 x_price = 0
+                # print(price)
             except:
                 x_price = 999111999
                 # print('None item')
@@ -108,7 +114,7 @@ for f in list_file:#[:2]:
             list_rec =[]
             properties_dict = {'Нозология': [], 'Действующее вещество': [], 'Группа товара': [], 'Бренд': [], 'Производитель': [],
                           'Страна': [], 'Форма выпуска': [], 'Рецепт': [], 'Условия хранения': [], 'Действующее вещество, сборное название': [],
-                          'Состав, вес (кратко)': [], 'Фармакотерапевтическая группа': []}
+                          'Состав, вес (кратко)': [], 'Фармакотерапевтическая группа': [], 'Количество в упаковке': [], 'Other': []}
             for j in properties:
                 list_typeID.append(j['typeID'])
                 list_item_ID.append(j['typeID'])
@@ -129,7 +135,7 @@ for f in list_file:#[:2]:
                 # print('===price===price=============')
                 # print(name_item, ' === price_'+k, v, type(price))
                 price_dict['count_index'] = count_index_total
-                print('count_index ----->', count_index_total)
+                #print('count_index ----->', count_index_total)
                 price_dict['name_item_price'] =  name_item
                 price_dict['parsing_day'] = parsing_day
                 price_dict['price_'+k] = v 
@@ -155,10 +161,10 @@ keys.append('count_index')
 'разбивка на группы ==========================================='
 prop_dict = {'count_index': '','name_item_prop': '', 'parsing_day': '','Нозология': [], 'Действующее вещество': [], 'Группа товара': [], 'Бренд': [], 'Производитель': [],
                           'Страна': [], 'Форма выпуска': [], 'Рецепт': [], 'Условия хранения': [], 'Действующее вещество, сборное название': [],
-                          'Состав, вес (кратко)': [], 'Фармакотерапевтическая группа': []}
+                          'Состав, вес (кратко)': [], 'Фармакотерапевтическая группа': [], 'Количество в упаковке': [], 'Other': []}
 prop_num_dict = {'count_index': '', 'name_item_prop': '', 'parsing_day': '','Нозология': [], 'Действующее вещество': [], 'Группа товара': [], 'Бренд': [], 'Производитель': [],
                           'Страна': [], 'Форма выпуска': [], 'Рецепт': [], 'Условия хранения': [], 'Действующее вещество, сборное название': [],
-                          'Состав, вес (кратко)': [], 'Фармакотерапевтическая группа': []}
+                          'Состав, вес (кратко)': [], 'Фармакотерапевтическая группа': [], 'Количество в упаковке': [], 'Other': []}
 list_group = []
 list_num_group = []
 count_total = 0
