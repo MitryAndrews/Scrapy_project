@@ -20,6 +20,7 @@ print(len(files))
 parsing_day = datetime.datetime.today().strftime('%Y-%m-%d')
 parsing_day = '2023-01-16'
 parsing_day = '2023-05-30'
+parsing_day = '2023-07-03'
 
 # print(f'{parsing_day} - begining ')
 # print(fr'C:\Python mini\venv\data_imobiliare\{count11}_{count11} страница_IMOBILIARE_RO_{parsing_day}')
@@ -30,7 +31,7 @@ dict_href = []
 
 # nazdorov_name = 'https://xn--80aafkze2bij.online'
 dict_url = {
-    'https://xn--80aafkze2bij.online/category/lekarstvennye-preparaty/preparaty-pri-prostudnykh-zabolevaniyakh-i-grippe/': 5, 'https://xn--80aafkze2bij.online/category/lekarstvennye-preparaty/obezbolivayushchie-preparaty/': 12,
+    'https://xn--80aafkze2bij.online/category/lekarstvennye-preparaty/preparaty-pri-prostudnykh-zabolevaniyakh-i-grippe/': 4, 'https://xn--80aafkze2bij.online/category/lekarstvennye-preparaty/obezbolivayushchie-preparaty/': 12,
     'https://xn--80aafkze2bij.online/category/lekarstvennye-preparaty/pishchevaritelnaya-sistema/': 17, 'https://xn--80aafkze2bij.online/category/lekarstvennye-preparaty/serdechno-sosudistye-preparaty/': 35
     }
 list_key = []

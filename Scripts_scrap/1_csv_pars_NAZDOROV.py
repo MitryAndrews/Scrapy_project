@@ -3,6 +3,7 @@ import time
 from typing import Dict
 import datetime
 import requests
+import lxml
 from bs4 import BeautifulSoup
 import json
 import csv
@@ -62,7 +63,7 @@ for k, v in dict_url.items():
             dict1['stock'] = stock
             # print(stock)
             item_features = item.find_all('div', class_='product-item__features-item')# if item.find('div', class_='product-item__features') != None else 'Нет данных'
-            print('stock ====>', stock, '------>', len(item_features))
+            # print('stock ====>', stock, '------>', len(item_features))
             for i in item_features:
                 item_feature_name = i.find('div', class_='product-item__features-name').get_text()
                 item_feature_value = i.find('div', class_='product-item__features-value').get_text()
