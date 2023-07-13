@@ -12,15 +12,22 @@ import os, fnmatch
 count11 = 1
 
 dirname_from = fr'C:\Users\user\Scrapy_project\Archive_SOCIALAPT\href_SOCIALAPT_requests'
-files = os.listdir(dirname_from)
-pattern = "*.html"
+files_prep = os.listdir(dirname_from)
+pattern = "*2023-07-04.html"
 list_file = []
-print(type(files))
-print(len(files))
-parsing_day = datetime.datetime.today().strftime('%Y-%m-%d')
-parsing_day = '2023-01-18'
-parsing_day = '2023-06-01'
-
+print(type(files_prep))
+print(len(files_prep))
+# parsing_day = datetime.datetime.today().strftime('%Y-%m-%d')
+# parsing_day = '2023-01-18'
+# parsing_day = '2023-06-01'
+parsing_day = '2023-07-04'
+patt = parsing_day+'.html'
+files = []
+for i in files_prep:#[300:310]:
+    a = i.split('_')[-1]
+    if a == patt:
+        files.append(i)
+        # print('prep', i)
 # print(f'{parsing_day} - begining ')
 # print(fr'C:\Python mini\venv\data_imobiliare\{count11}_{count11} страница_IMOBILIARE_RO_{parsing_day}')
 
